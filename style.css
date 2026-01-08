@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 85%;
+    max-width: 1360px;
+    margin: 16px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+   height: 60px;
+   
+}
+.menu ul {
+    gap: 32px;
+    display: flex;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 102px;
+}
+.btn{
+    background-color: #30b868;
+    color: white;
+    border: none;
+    padding: 16px 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600px;
+
+}
+.btn :hover{
+    background-color: rgba(127, 255, 212, 0.445);
+    box-shadow: 0 4px 8px rgba(127, 255, 212, 0.445);
+}
