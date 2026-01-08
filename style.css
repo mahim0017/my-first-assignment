@@ -2,41 +2,118 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  
+}
+
+header{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 16px;
+    height: 92px;
 }
 .navbar{
     width: 85%;
     max-width: 1360px;
-    margin: 16px auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 345px;
+    justify-content: center;
 }
 .navbar .logo{
    height: 60px;
    
 }
-.menu ul {
+.navbar .menu ul {
     gap: 32px;
     display: flex;
     list-style: none;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
-.menu ul li a{
+.navbar .menu ul li {
+    
+}
+.navbar .menu ul li a{
     text-decoration: none;
     font-size: 16px;
-    font-weight: 102px;
+    font-weight: 400;
+    line-height: 158%;
+    color: black;
 }
 .btn{
     background-color: #30b868;
     color: white;
     border: none;
-    padding: 16px 13px;
+    padding: 12px 16px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 600px;
+    font-weight: 600;
 
 }
-.btn :hover{
-    background-color: rgba(127, 255, 212, 0.445);
-    box-shadow: 0 4px 8px rgba(127, 255, 212, 0.445);
+
+
+.banner{
+     width: 100%;
+    max-width: 1600px;
+    height: 674px; 
+    margin: 0 auto;
+
+    background-image: url("assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 115px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.first-head, .second-head{
+    font-size: 84px;
+    text-align: center;
+    margin: 0;
+}
+.buttons{
+    display: flex;
+    gap: 16px;
+}
+.buttons .second-btn btn{
+    border: #FFFFFF;
+    background-color: transparent;
+}
+/* .buttons, .first-btn btn{
+    border: none;
+    background-color: #30B868;
+    color:#FFFFFF ;
+} */
+.main-container p{
+    margin-bottom:32px ;
+    color:#FFFFFF;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.main-container .first-head{
+    color: #FFFFFF;
+}
+.main-container .green{
+    color: #30B868;
 }
